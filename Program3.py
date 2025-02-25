@@ -1,0 +1,14 @@
+boola = 1>2;
+print('1>2: '+str(boola));
+boolb = 1<2;
+print('1<2: '+str(boolb));
+boolc = 'a'>'b';
+print('a>b '+str(boolc));
+boold = 'a'<'b';
+print('a<b '+str(boold));
+boole = 'b'>'a';
+print('b>a '+str(boole));
+boolf = 1>2 and 'a'>'b';
+print(str(boolf));
+boolg = 1>2 or 'a'<'b';
+print(str(boolg));
